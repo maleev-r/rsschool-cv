@@ -1,1 +1,1 @@
-# rsschool-cv
+https://maleev-r.github.io/rsschool-cv/cv
