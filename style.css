@@ -39,6 +39,10 @@ body {
   padding-right: 10px;
 }
 
+.main {
+  padding-bottom: 60px;
+}
+
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -196,6 +200,41 @@ body {
 
 .section-list-item a:hover {
   color: var(--text-black);
+}
+
+.footer {
+  background-color: var(--orange-light);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.copyright {
+  color: var(--text-black);
+}
+
+.github {
+  color: var(--text-light);
+  margin-right: auto;
+  padding-left: 15px;
+}
+
+.github-link {
+  color: var(--text-black);
+  text-decoration: none;
+}
+
+.rsschool {
+  height: 50px;
+  width: 120px;
+  background-image: url("./assets/img/rs_school_js.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 @media (max-width: 768px) {
